@@ -1,1 +1,14 @@
-<h1>My new blog on GitHub.com -- Hell yeah!!!1</h1>
+---
+layout: master
+title: Crosvera on the Web
+---
+
+
+<h2><a href='/blog.html'>More Posts</a></h2>
+
+<div class='post'>
+    <span class='date'>{{site.posts.first..date | date_to_string}}</span>
+    <h1 class='title'><a class ='title' href='{{site.posts.first.url}}'>{{site.posts.first.title}}</a></h1>
+    <div class='body'>{{ site.posts.first.content }}</div>
+</div>
+

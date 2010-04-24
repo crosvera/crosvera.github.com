@@ -55,7 +55,7 @@ body {
 /* date post */
 span.date {
     font: normal bold 78%;
-    line-height: 1.4em;
+    /*line-height: 1.4em;*/
     text-transform:uppercase;
     letter-spacing:.2em;
     color:#999999;

@@ -345,7 +345,9 @@ width:50em;
 }
 
 #contents pre{
-margin:1em 0!important;
+margin-bottom:1.4em;
+margin-left:auto;
+margin-right:auto;
 font-size:90%!important;
 background-color:#f8f8ff!important;
 border:1px solid #dedede!important;

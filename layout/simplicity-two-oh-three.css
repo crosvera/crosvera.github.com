@@ -474,9 +474,9 @@ padding:3px;
 text-align:center;
 }
 
-pre {
+/*pre {
 overflow:auto;
-}
+}*/
 
 table.statistics {
 background-color:#fafafa;

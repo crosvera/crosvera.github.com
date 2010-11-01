@@ -352,7 +352,7 @@ border:1px solid #dedede!important;
 padding:.5em!important;
 line-height:1.5em!important;
 color:#444!important;
-overflow:auto!important;
+width:50em;
 }
 
 #contents pre code{
@@ -368,7 +368,6 @@ background-color:#f8f8ff!important;
 color:#444!important;
 padding:0 .2em!important;
 border:1px solid #dedede!important;
-width:50em;
 }
 
 #contents pre.console{

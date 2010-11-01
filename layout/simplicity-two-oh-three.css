@@ -344,20 +344,13 @@ white-space:pre;
 width:50em;
 }
 
-code {
-background-color:#333;
-border:solid 1px #999;
-color:#eee;
-font-family:"Andale Mono", Courier, Monospace;
-font-size:90%;
-line-height:150%;
-margin-bottom:1.4em;
-margin-left:auto;
-margin-right:auto;
-padding:.6em 1em;
-white-space:pre;
-width:50em;
-}
+#content pre{margin:1em 0!important;font-size:90%!important;background-color:#f8f8ff!important;border:1px solid #dedede!important;padding:.5em!important;line-height:1.5em!important;color:#444!important;overflow:auto!important;}
+#content pre code{padding:0!important;font-size:100%!important;background-color:#f8f8ff!important;border:none!important;}
+#content code{font-size:90%!important;background-color:#f8f8ff!important;color:#444!important;padding:0 .2em!important;border:1px solid #dedede!important;}
+#content pre.console{margin:1em 0!important;font-size:90%!important;background-color:black!important;padding:.5em!important;line-height:1.5em!important;color:white!important;}
+#content pre.console code{padding:0!important;font-size:100%!important;background-color:black!important;border:none!important;color:white!important;}
+#content pre.console span{color:#888!important;}
+#content pre.console span.command{color:yellow!important;}
 
 div.contact {
 background-color:#fafafa;

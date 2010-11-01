@@ -1,0 +1,14 @@
+---
+layout: journal
+---
+
+
+<h2>{{ page.title }}</h2>
+<p><span class="timestamp">Posted on: {{ page.date | date_to_long_string }}.
+{% if page.categories %}
+Tagged in: {% for category in page.categories %}
+{{ category }} {% unless forloop.last %},{% endunless %}
+{% endfor %}
+{% endif %}</span></p>
+<br />
+{{ content }}

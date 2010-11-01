@@ -344,6 +344,21 @@ white-space:pre;
 width:50em;
 }
 
+code {
+background-color:#333;
+border:solid 1px #999;
+color:#eee;
+font-family:"Andale Mono", Courier, Monospace;
+font-size:90%;
+line-height:150%;
+margin-bottom:1.4em;
+margin-left:auto;
+margin-right:auto;
+padding:.6em 1em;
+white-space:pre;
+width:50em;
+}
+
 div.contact {
 background-color:#fafafa;
 border:solid 1px #bbb;

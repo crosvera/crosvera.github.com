@@ -1,10 +1,8 @@
 ---
-layout: post
+layout: journal
 title: Hello World!
 ---
 
-Hello World
-===========
 
 This is a test page =).
 

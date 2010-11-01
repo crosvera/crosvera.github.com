@@ -1,14 +1,11 @@
 ---
-layout: master
+layout: Journal
 title: Crosvera on the Web
 ---
 
 
-<!-- <h2><a href='/blog.html'>More Posts</a></h2> -->
-
-<div class='post'>
-    <span class='date'>{{site.posts.first..date | date_to_string}}</span>
-    <h1 class='title'><a class ='title' href='{{site.posts.first.url}}'>{{site.posts.first.title}}</a></h1>
-    <div class='body'>{{ site.posts.first.content }}</div>
-</div>
-
+{% for post in site.posts limit:5 %}
+<h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+{{ post.content }}
+<em>Posted on {{ post.date | date_to_long_string }}.</em>
+{% endfor %}

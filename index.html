@@ -6,8 +6,8 @@ title: Crosvera on the Web
 
 {% for post in site.posts limit:5 %}
 <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-<p style="font-size:85%;"><em style="text-align:left;">Posted on {{ post.date | date_to_long_string }}.</em></p>
 {{ post.content }}
+<p style="font-size:90%;"><em >Posted on {{ post.date | date_to_long_string }}.</em>&nbsp; tags: [ post.tags]</p>
 <hr>
 {% endfor %}
 

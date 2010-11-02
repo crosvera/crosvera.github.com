@@ -3,7 +3,7 @@ layout: default
 ---
 
 <h2>{{ page.title }}</h2>
-<p>Posted on: {{ page.date | date_to_long_string }}.
+<p style="font-size:80%;">Posted on: {{ page.date | date_to_long_string }}.
 {% if page.categories %}
 Tagged in: {% for category in page.categories %}
 {{ category }} {% unless forloop.last %},{% endunless %}

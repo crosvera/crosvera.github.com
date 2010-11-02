@@ -5,10 +5,10 @@ layout: default
 
 {% for post in site.posts limit:5 %}
 <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-{{ post.summary }}
+{{ post.content }}
 <p><em >Posted on {{ post.date | date_to_long_string }}.</em>&nbsp;
-{% if page.categories %}
-Tagged in: {% for category in page.categories %}
+{% if post.categories %}
+Tagged in: {% for category in post.categories %}
 {{ category }} {% unless forloop.last %},{% endunless %}
 {% endfor %}
 {% endif %}</p>

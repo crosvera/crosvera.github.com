@@ -4,6 +4,11 @@
     font-size:80%;
 }
 
+#disqus {
+width: 80%;
+margin:auto;
+}
+
 #container {
 display:block;
 margin:0 auto;

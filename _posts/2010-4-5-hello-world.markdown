@@ -1,7 +1,9 @@
 ---
-layout: journal
+layout: post
 title: Hello World!
-tags: test, github
+categories: 
+- helloworld
+- github
 ---
 
 

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Hello World!
+summary: Test post
 categories: 
 - helloworld
 - github

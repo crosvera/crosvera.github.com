@@ -1,0 +1,17 @@
+---
+layout: post
+title: New Blog!!
+categories:
+- github
+- blog
+---
+
+Well after several months without posts in crosvera.blogspot.com and lose all
+my codes from a free-web-hosting (0fees.net), I decided start a new blog but now
+from the [GitHub Page system][1]. This service is awesome, because you can use
+a git repository to manage your blog and use the MarkDown systax (and others) to
+write your posts. (very l33t style heh...)
+
+Well, I hope to write some new stuff soon.
+
+[1]: http://pages.github.com

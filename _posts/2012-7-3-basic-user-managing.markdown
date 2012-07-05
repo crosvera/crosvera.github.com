@@ -14,7 +14,7 @@ basic administration commands.
 In this first post, I will write for you about basic user managing.
 
 
-## The `useradd` command and others.
+### The `useradd` command and others.
 This is the command to designed -as the name says- to add new users to the system
 It can be found in every Unix-like operating system (Linux for example).
 
@@ -57,7 +57,7 @@ The fields shown in the above image correspond to the user's login name, passwor
 directory and default shell (usually Bash on Linux).
 
 But what is the _shadow password_?, Under Linux and other Unix-like operating systems,
-the `/etc/shadow` file is used to stre actual passwords in encrypted format for user's
+the `/etc/shadow` file is used to store actual passwords in encrypted format for user's
 account.
 
 Well, that's all for this post. I hope this basic informatic helps you in somehow, remember

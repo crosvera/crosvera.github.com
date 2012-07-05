@@ -60,6 +60,19 @@ But what is the _shadow password_?, Under Linux and other Unix-like operating sy
 the `/etc/shadow` file is used to store actual passwords in encrypted format for user's
 account.
 
+
+Now we have learned how to create an user account on our system, now we will learn how
+to delete an user account. To perform this task, we will use the `userdel` command, which
+basis syntax is:
+
+    userdel [options] LOGIN
+
+So, if we want to delete an user account together with its home directory, we will use:
+
+    userdel -r foobar
+
+![Delete an user account](/basic_admin_images/03.png)
+
 Well, that's all for this post. I hope this basic informatic helps you in somehow, remember
 read the [man pages][1] for further information about the use of commands.
 
